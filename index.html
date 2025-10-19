@@ -1,4 +1,29 @@
-<!doctype html><html lang="no"><head>
-<meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>EK Ordre</title><link rel="manifest" href="/manifest.webmanifest" /><meta name="theme-color" content="#0f172a" />
-</head><body class="bg-slate-50"><div id="root"></div><script type="module" src="/src/main.jsx"></script></body></html>
+<!doctype html>
+<html lang="no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EK Ordre – Lokal versjon</title>
+
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+      body { background-color: #f9fafb; }
+    </style>
+  </head>
+
+  <body>
+    <!-- Toppbanner -->
+    <div class="w-full bg-gray-900 text-white text-sm py-2 px-4 flex items-center justify-between">
+      <span class="font-medium">EK Ordre – Lokal testversjon for EK Multi AS</span>
+      <span class="opacity-80">Vite dev</span>
+    </div>
+
+    <!-- Root for React -->
+    <div id="root"></div>
+
+    <!-- React App Entry -->
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
